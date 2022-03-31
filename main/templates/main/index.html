@@ -5,8 +5,8 @@
             {% for book in Books_list %}
                 <div class="col-lg-3">
                 <a href=item/{{ book.id }}>
-                    <h2>{{ book.tytuł }}</h2>
-                    <img src="media/{{  book.zdjęcie }}" class="img-fluid">
+                    <h2>{{ book.title }}</h2>
+                    <img src="media/{{  book.picture }}" class="img-fluid">
                 </a>
                 </div>
             {% endfor %}
